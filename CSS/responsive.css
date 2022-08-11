@@ -1,0 +1,145 @@
+
+@media screen and (max-width: 48em) {
+    .container {
+        max-width: 35em;
+    } 
+    .header__two-search {
+        flex: 1 1;
+    }
+    .header__logoShop {
+        display: flex;
+    }
+    .header__one-contact {
+        display: none;
+    }
+    .header__logoShop1 {
+        display: none;
+    }
+    .header__two-btn {
+        display: none;
+    }
+    .header__three {
+        display: none;
+    }
+
+
+
+
+
+
+
+    .icon-buy{
+        display: none;
+    }
+    .hidden-text-cart{
+        display: none;
+    }
+    .col{
+        padding: 4px 4px;
+    }
+} 
+
+
+@media screen and (max-width: 62em) and (min-width: 48em) {
+    .container {
+        max-width: 45em;
+    } 
+    .header__two-search {
+        flex: 0.9 1;
+    }
+    .header__one-bgr {
+        display: none;
+    }
+    .header__one-contact {
+        display: flex;
+    }
+    .header__three-list {
+        display: flex;
+    }
+    
+
+
+
+
+
+    .icon-buy{
+        display: none;
+    }
+    .hidden-text-cart{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 75em) and (min-width: 62em){
+    .container {
+        max-width: 60em;
+    } 
+    .header__two-search {
+        flex: 0.9 1;
+    }
+    .header__one-bgr {
+        display: none;
+    }
+    .header__one-contact {
+        display: flex;
+    }
+    .header__three-list {
+        display: flex;
+    }
+
+
+
+
+    .hidden-text-cart{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 87.5em) and (min-width: 75em){
+    .container {
+        max-width: 71.25em;
+    } 
+    .header__two-search {
+        flex: 0.9 1;
+    }
+    .header__one-bgr {
+        display: none;
+    }
+    .header__one-contact {
+        display: flex;
+    }
+    .header__three-list {
+        display: flex;
+    }
+
+
+
+
+
+
+
+    .hidden-text-cart{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 87.5em) {
+    .container {
+        max-width: 82.5em;
+    } 
+    .header__two-search {
+        flex: 0.7 1;
+    }
+    .header__one-bgr {
+        display: none;
+    }
+    .header__one-contact {
+        display: flex;
+    }
+    .header__three-list {
+        display: flex;
+    }
+
+    
+}
